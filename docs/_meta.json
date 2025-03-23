@@ -1,37 +1,37 @@
 [
-  {
-    "text": "首页",
-    "link": "/index",
-    "activeMatch": "/index/"
-  },
-  {
-    "text": "自动化技术",
-    "link": "/at/index",
-    "activeMatch": "/at/"
-  },
-  {
-    "text": "编程基础",
-    "link": "/code/index",
-    "activeMatch": "/code/"
-  },
-  {
-    "text": "技术文档",
-    "link": "/td",
-    "activeMatch": "/td/"
-  },
-  {
-    "text": "经验总结",
-    "link": "/exp",
-    "activeMatch": "/exp/"
-  },
-  {
-    "text": "阅读",
-    "link": "/book",
-    "activeMatch": "/book/"
-  },
-  {
-    "text": "关于",
-    "link": "/about",
-    "activeMatch": "/about/"
-  }
-]
+    {
+      "text": "首页",
+      "link": "/index",
+      "activeMatch": "/index/"
+    },
+    {
+      "text": "自动化技术",
+      "link": "/at/index",
+      "activeMatch": "/at/"
+    },
+    {
+      "text": "编程基础",
+      "link": "/code/index",
+      "activeMatch": "/code/"
+    },
+    {
+      "text": "技术文档",
+      "link": "/td",
+      "activeMatch": "/td/"
+    },
+    {
+      "text": "经验总结",
+      "link": "/exp",
+      "activeMatch": "/exp/"
+    },
+    {
+      "text": "阅读",
+      "link": "/book",
+      "activeMatch": "/book/"
+    },
+    {
+      "text": "关于",
+      "link": "/about",
+      "activeMatch": "/about/"
+    }
+  ]

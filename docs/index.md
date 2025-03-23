@@ -13,7 +13,7 @@ hero:
   #     text: GitHub
   #     link: https://github.com/web-infra-dev/rspress
   image:
-    src: /1.png
+    src: /logo.png
     alt: Logo
 features:
   - title: 

@@ -1,13 +1,16 @@
 import * as path from 'node:path';
 import { defineConfig } from 'rspress/config';
 import { LastUpdated } from 'rspress/theme';
+import readingTime from 'rspress-plugin-reading-time'
+import live2d from 'rspress-plugin-live2d'
+import toc from 'rspress-plugin-toc'
 
 export default defineConfig({
   root: 'docs',
   base: '/',
   title: 'Lorien Blog',
   icon: '/logo.png',
-  // logo: 'hi.png',
+  logo: 'hello.png',
   logoText: 'Hi, 今天你好吗？',
   themeConfig: {
     lastUpdated: true,
@@ -42,43 +45,22 @@ export default defineConfig({
     },
   },
   route:{
-
   },
-  nav: [
-    {
-      "text": "首页",
-      "link": "/index",
-      "activeMatch": "/index/"
-    },
-    {
-      "text": "自动化技术",
-      "link": "/at/index",
-      "activeMatch": "/at/"
-    },
-    {
-      "text": "编程基础",
-      "link": "/code/index",
-      "activeMatch": "/code/"
-    },
-    {
-      "text": "技术文档",
-      "link": "/td",
-      "activeMatch": "/td/"
-    },
-    {
-      "text": "经验总结",
-      "link": "/exp",
-      "activeMatch": "/exp/"
-    },
-    {
-      "text": "阅读",
-      "link": "/book",
-      "activeMatch": "/book/"
-    },
-    {
-      "text": "关于",
-      "link": "/about",
-      "activeMatch": "/about/"
-    }
-  ]
+  plugins: [
+    readingTime({
+      defaultLocale: 'zh-CN',
+      }),
+    live2d({
+      models: [
+        {
+          path: 'https://model.oml2d.com/HK416-1-normal/model.json',
+          position: [0, 60],
+          scale: 0.08,
+          stageStyle: {
+            height: 450,
+          },
+        },
+      ],      
+    }),
+]
 });

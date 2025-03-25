@@ -11,7 +11,9 @@
     "preview": "rspress preview"
   },
   "dependencies": {
-    "rspress": "^1.40.2"
+    "rspress": "^1.40.2",
+    "rspress-plugin-live2d": "^0.3.0",
+    "rspress-plugin-reading-time": "^0.3.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",

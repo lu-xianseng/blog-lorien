@@ -16,22 +16,17 @@
     },
     {
       "text": "技术文档",
-      "link": "/td",
+      "link": "/td/index",
       "activeMatch": "/td/"
     },
     {
       "text": "经验总结",
-      "link": "/exp",
+      "link": "/exp/index",
       "activeMatch": "/exp/"
     },
     {
-      "text": "阅读",
-      "link": "/book",
-      "activeMatch": "/book/"
-    },
-    {
       "text": "关于",
-      "link": "/about",
+      "link": "/about/index",
       "activeMatch": "/about/"
     }
   ]

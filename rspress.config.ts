@@ -1,8 +1,8 @@
 import * as path from 'node:path';
 import { defineConfig } from 'rspress/config';
-import { LastUpdated } from 'rspress/theme';
+// import { LastUpdated } from 'rspress/theme';
 import readingTime from 'rspress-plugin-reading-time'
-import live2d from 'rspress-plugin-live2d'
+// import live2d from 'rspress-plugin-live2d'
 // import toc from 'rspress-plugin-toc'
 
 export default defineConfig({
@@ -12,6 +12,7 @@ export default defineConfig({
   icon: '/logo.png',
   // logo: 'hello.png',
   logoText: 'Hi, 今天你好吗？',
+  ssr: 'false',
   themeConfig: {
     lastUpdated: true,
     enableScrollToTop: true,
@@ -50,17 +51,5 @@ export default defineConfig({
     readingTime({
       defaultLocale: 'zh-CN',
       }),
-    live2d({
-      models: [
-        {
-          path: 'https://model.oml2d.com/HK416-1-normal/model.json',
-          position: [0, 60],
-          scale: 0.08,
-          stageStyle: {
-            height: 450,
-          },
-        },
-      ],      
-    }),
-]
+    ]
 });

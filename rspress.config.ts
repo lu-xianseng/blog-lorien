@@ -3,14 +3,14 @@ import { defineConfig } from 'rspress/config';
 import { LastUpdated } from 'rspress/theme';
 import readingTime from 'rspress-plugin-reading-time'
 import live2d from 'rspress-plugin-live2d'
-import toc from 'rspress-plugin-toc'
+// import toc from 'rspress-plugin-toc'
 
 export default defineConfig({
   root: 'docs',
   base: '/',
   title: 'Lorien Blog',
   icon: '/logo.png',
-  logo: 'hello.png',
+  // logo: 'hello.png',
   logoText: 'Hi, 今天你好吗？',
   themeConfig: {
     lastUpdated: true,
@@ -30,7 +30,7 @@ export default defineConfig({
       },
     ],
     footer: {
-      message: `版权所有 © 2020-${new Date().getFullYear()} lorien`
+      message: `Copyright © 2020-${new Date().getFullYear()} lorien`
     },
     hideNavbar: 'auto',
     prevPageText: '上一页',

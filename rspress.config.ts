@@ -30,9 +30,6 @@ export default defineConfig({
         content: 'https://github.com/lu-xianseng',
       },
     ],
-    footer: {
-      message: `Copyright © 2020-${new Date().getFullYear()} lorien`
-    },
     hideNavbar: 'auto',
     prevPageText: '上一页',
     nextPageText: '下一页',

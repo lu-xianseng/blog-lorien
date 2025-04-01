@@ -1,0 +1,31 @@
+.bottom-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  
+  .record-text {
+    margin-right: 1em;
+  }
+  
+  .record-number {
+    color: rgb(74, 74, 231);
+    text-decoration: none;
+  }
+  
+  .record-number:hover {
+    text-decoration: underline;
+  }
+  
+  .copyright-text a {
+    color: gray;
+    text-decoration: none;
+  }
+  
+  .copyright-text a:hover {
+    text-decoration: underline;
+  }    

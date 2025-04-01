@@ -8,6 +8,7 @@ const recordText = (
       <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" className="record-number">
         2025131716
       </a>
+       号
     </div>
   );
   

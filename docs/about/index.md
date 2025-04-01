@@ -1,9 +1,7 @@
 ---
-overviem: true
-comments: true
+overview: true
 title: 关于我
 ---
-# 关于我
 
 ## 初窥门径
 
